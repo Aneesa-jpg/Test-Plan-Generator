@@ -1,0 +1,16 @@
+name: test-plan-generator
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyterlab
+  - ipywidgets
+  - pip
+  - pip:
+      - openai
+      - gradio
+      - pdfplumber
+      - python-docx
+      - fpdf
+      - python-dotenv

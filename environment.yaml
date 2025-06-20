@@ -9,6 +9,7 @@ dependencies:
   - pip
   - pip:
       - openai
+      - google-generativeai
       - gradio
       - pdfplumber
       - python-docx
